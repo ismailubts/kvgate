@@ -1,0 +1,109 @@
+# HELP kvgate:ttft_seconds Time to first token, seconds.
+# TYPE kvgate:ttft_seconds histogram
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.001"} 4002
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.005"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.01"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.02"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.04"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.06"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.08"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.1"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.25"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.5"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.75"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="1"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="2.5"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="5"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="7.5"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="10"} 4004
+kvgate:ttft_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="+Inf"} 4004
+kvgate:ttft_seconds_sum{route="chat_completions",backend="mock",model="mock-model"} 2.03055
+kvgate:ttft_seconds_count{route="chat_completions",backend="mock",model="mock-model"} 4004
+# HELP kvgate:inter_token_latency_seconds Inter-token (time-per-output-token) latency, seconds.
+# TYPE kvgate:inter_token_latency_seconds histogram
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.01"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.025"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.05"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.075"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.1"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.15"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.2"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.3"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.4"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.5"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.75"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="1"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="2.5"} 48048
+kvgate:inter_token_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="+Inf"} 48048
+kvgate:inter_token_latency_seconds_sum{route="chat_completions",backend="mock",model="mock-model"} 0.241585
+kvgate:inter_token_latency_seconds_count{route="chat_completions",backend="mock",model="mock-model"} 48048
+# HELP kvgate:e2e_request_latency_seconds End-to-end request latency, seconds.
+# TYPE kvgate:e2e_request_latency_seconds histogram
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.01"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.02"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.04"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.08"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.16"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.32"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.64"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="1.28"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="2.56"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="5.12"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="10.24"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="20.48"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="40.96"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="81.92"} 4004
+kvgate:e2e_request_latency_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="+Inf"} 4004
+kvgate:e2e_request_latency_seconds_sum{route="chat_completions",backend="mock",model="mock-model"} 2.42653
+kvgate:e2e_request_latency_seconds_count{route="chat_completions",backend="mock",model="mock-model"} 4004
+# HELP kvgate:request_queue_time_seconds Admission queue wait time, seconds.
+# TYPE kvgate:request_queue_time_seconds histogram
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.01"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.02"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.04"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.08"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.16"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.32"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="0.64"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="1.28"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="2.56"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="5.12"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="10.24"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="20.48"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="40.96"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="81.92"} 4004
+kvgate:request_queue_time_seconds_bucket{route="chat_completions",backend="",model="mock-model",le="+Inf"} 4004
+kvgate:request_queue_time_seconds_sum{route="chat_completions",backend="",model="mock-model"} 0
+kvgate:request_queue_time_seconds_count{route="chat_completions",backend="",model="mock-model"} 4004
+# HELP kvgate:gateway_overhead_seconds Gateway self-overhead: admission to first upstream byte forwarded, seconds.
+# TYPE kvgate:gateway_overhead_seconds histogram
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.01"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.02"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.04"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.08"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.16"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.32"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="0.64"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="1.28"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="2.56"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="5.12"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="10.24"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="20.48"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="40.96"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="81.92"} 4004
+kvgate:gateway_overhead_seconds_bucket{route="chat_completions",backend="mock",model="mock-model",le="+Inf"} 4004
+kvgate:gateway_overhead_seconds_sum{route="chat_completions",backend="mock",model="mock-model"} 2.03055
+kvgate:gateway_overhead_seconds_count{route="chat_completions",backend="mock",model="mock-model"} 4004
+# HELP kvgate:requests_running In-flight requests.
+# TYPE kvgate:requests_running gauge
+kvgate:requests_running 1
+# HELP kvgate:requests_waiting Requests waiting in the admission queue.
+# TYPE kvgate:requests_waiting gauge
+kvgate:requests_waiting 0
+# HELP kvgate:requests_total Completed requests by HTTP status code.
+# TYPE kvgate:requests_total counter
+kvgate:requests_total{code="200"} 4004
+# HELP kvgate:affinity_spills_total Prefix-affinity load-guard spill cascades.
+# TYPE kvgate:affinity_spills_total counter
+# HELP kvgate:backend_failures_total Upstream request failures.
+# TYPE kvgate:backend_failures_total counter
