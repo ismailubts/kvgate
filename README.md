@@ -22,6 +22,8 @@ that the job requires C++.
 
 Repository: [github.com/ismailubts/kvgate](https://github.com/ismailubts/kvgate)
 
+**Author:** [Abdul Ismail](https://github.com/ismailubts)
+
 > Status: multi-backend routing, metrics, and a preliminary overhead benchmark
 > are in tree. The headline affinity-vs-round-robin benchmark is **pending a
 > bare-metal run** (see [Benchmarks](#benchmarks)). README numbers are the
@@ -368,4 +370,4 @@ ThreadSanitizer jobs and a clang-format check.
 
 ## License
 
-MIT — Copyright (c) 2026 ismailubts. See [LICENSE](LICENSE).
+Proprietary — Copyright (c) Abdul Ismail. See [LICENSE](LICENSE).
